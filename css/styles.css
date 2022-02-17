@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* header section****************************************************************************** */
+
+main {
+    padding-top: 55px;
+}
+
+
+.logo {
+    width: 70px;
+    height: 50px;
+}
+
+.cartTotal {
+    position: relative;
+    right: 50px;
+    bottom: 15px;
+}
+
+.navbar {
+
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.titulo {
+    color: rgb(0, 126, 48);
+    margin-left: 25%;
+    font-weight: bolder;
+}
+
+
+.carousselImgSize {
+
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+/* Features section ****************************************************************/
+.featuresTop {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+
+#features {
+    background-color: #6effab;
+}
+
+/* formlario seection******************************************************** */
+
+.formulario {
+    background-color: rgb(0, 126, 48);
+    color: #fff;
+    text-align: left;
+    padding: 35px 100px;
+    line-height: 35px;
+}
+
+
+form {
+    color: #fff;
+    padding-right: 100px;
+}
+
+
+/* cards section******************************************************************* */
+
+.stockHeader {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#cards {
+    padding: 20px;
+    padding-top: 40px;
+    background-color: rgb(110, 255, 171);
+
+
+}
+
+.contenedor-style {
+    max-width: 100%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+
+}
+
+.cardStyle {
+    margin: 15px;
+
+}
+
+.imgStyle {
+    padding-top: 10px;
+    width: auto;
+    height: 200px;
+}
+
+/* Usuarios API CALL!! ------------------------------------------------------ */
+
+
+#usuarios {
+    padding: 50px;
+}
+
+
+.userHeader {
+    font-size: 4rem;
+    padding-bottom: 30px;
+}
+
+.usersHeaderEnd {
+    padding: 50px;
+    margin-left: 20%;
+    font-size: 3rem;
+}
+
+.users {
+    margin: 10px;
+}
+
+/* cart section *************************************************************/
+
+
+#carrito {
+    padding: 50px;
+}
+
+.carritoStyle {
+    margin-left: auto;
+}
+
+.finalizar_btn {
+    position: absolute;
+    right: 10%;
+}
+
+.priceAlignment {
+    position: absolute;
+    right: 100px;
+}
+
+
+
+/* footer ************************************************************/
+
+.containerFooter {
+    position: absolute;
+    left: 8%;
+    bottom: 0;
+
+    /* Height of the footer*/
+
+
+}

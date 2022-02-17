@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compralo Ya!</title>
+  <!-- ESTILOS ******************************************************************************* -->
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous">
+  <!-- MY CSS ******************************************************************************* -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <header id="inicio">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.jpg"
+              alt="logo"></a>
+          <span id="totalItemsCarrito" class="badge bg-primary rounded-pill cartTotal">0</span>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formulario">Financiacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cards">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carrito" tabindex="-1" aria-disabled="true">Carrito</a>
+            </li>
+          </ul>
+          <h3 id="titulo" class="titulo">Compralo Ya!</h3>
+        </div>
+      </div>
+
+    </nav>
+
+
+  </header>
+
+  <main>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+          class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active myCaroussel">
+          <img src="img/caroussel/electrodomesticos1.jpg"
+            class="d-block w-100 img-fluid carousselImgSize" alt="electrodomesticos">
+        </div>
+        <div class="carousel-item">
+          <img src="img/caroussel/electrodomesticos2.png"
+            class="d-block w-100 img-fluid carousselImgSize" alt="electrodomesticos">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/caroussel/electrodomesticos3.jpg"
+            class="d-block w-100 img-fluid carousselImgSize" alt="electrodomesticos">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/caroussel/electrodomesticos4.jpg"
+            class="d-block w-100 img-fluid carousselImgSize" alt="electrodomesticos">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="features">
+
+      <!-- Marketing messaging and featurettes
+        ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container-fluid ">
+
+        <div class="container marketing featuresTop">
+
+          <!-- Three columns of text below the carousel -->
+          <div class="row featuresBottom">
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="/img/serviciotecnico.jpg" alt="servicio tecnico"
+                width="140" height="140">
+
+              <h2>Respaldo</h2>
+              <p>Nuestros productos cuentan con el respaldo de los <br> principales talleres de
+                servicio tecnico
+                del pais, en los cuales recibira descuentos exclusivos.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="/img/garantia.jpg" alt="Garantia" width="140"
+                height="140">
+
+              <h2>Garantia</h2>
+              <p>Todos nuestros productos cuentan con <br> garantia de 12 meses.<br> Ciertas
+                Condiciones aplican.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="/img/financiacion.jpg" alt="financiacion" width="140"
+                height="140">
+
+              <h2>Financiacion</h2>
+              <p>Contamos con el financiamiento de los <br> principales banco de plaza con <br> las
+                mejores tasas del mercado.</p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+
+
+
+        </div><!-- /.container -->
+
+      </div>
+
+    </section>
+
+    <section id="usuarios">
+      <div class="container usuarios">
+        <h1 class="userHeader" style="text-align: center;">Clientes satisfechos:</h1>
+        <div id="api" class="text-center">
+        </div>
+        <div>
+          <h3 class="usersHeaderEnd">Y muchos mas!!!</h3>
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <section id="formulario">
+
+      <div class="row">
+
+        <div class="formulario col-lg-6">
+          <h2>Simula tu Credito</h2>
+
+          <form id="formulario" class="" action="#" method="post">
+            <label for="Banco">selccione su Banco:</label>
+            <div class="contactForm__item">
+              <select class="" name="banco" id="banco">
+                <option value="">ninguno</option>
+                <option value="santander">santander</option>
+                <option value="scotiabank">scotiabank</option>
+                <option value="itau">itau</option>
+              </select>
+            </div>
+            <label for="cuotas">Seleccione la cantidad de cuotas:</label>
+            <div class="contactForm__item">
+              <select class="" name="cuotas" id="cuotas">
+                <option value="">ninguno</option>
+                <option value=6>6 Cuotas</option>
+                <option value=9>9 Cuotas</option>
+                <option value=12>12 Cuotas</option>
+              </select>
+            </div>
+            <label for="monto">por favor ingrese el monto a solicitar </label><br>
+            <div class="contactForm__item"><input type="number" name="monto" id="monto" /></div><br>
+            <div class="contactForm__item"><input class="btn btn-outline-light" type="submit"
+                name="enviar" placeholder="Enviar" /></div><br>
+            <div class="contactForm__item"><input class="btn btn-outline-light" type="reset"
+                name="reset" placeholder="reset" onclick="erase()" />
+            </div>
+          </form>
+
+
+        </div>
+        <div class="formulario col-lg-6">
+          <div id="simuladorOutput">
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section id="cards">
+
+      <h2 class="stockHeader">Productos Disponibles:</h2>
+
+
+      </div>
+      <div id="contenedor" class="row contenedor-style">
+
+      </div>
+    </section>
+
+    <section id="carrito">
+
+      <div class="row g-5 carritoStyle">
+        <div class="order-md-last">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-primary">Carrito</span>
+            <!-- <span id="totalItemsCarrito" class="badge bg-primary rounded-pill">0</span> -->
+          </h4>
+          <ul class="list-group mb-3" id="selectorCarrito">
+          </ul>
+          <ul>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (USD)</span>
+              <strong id="montoTotal"></strong>
+            </li>
+          </ul>
+          <button class="btn btn-danger" onclick="emptyCart();vaciarCarrito()">Vaciar
+            Carrito</button>
+          <button class="btn btn-success finalizar_btn" onclick="endBuy()">Finalizar
+            compra</button></a>
+    </section>
+
+
+
+    <hr class="featurette-divider">
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Al Inicio</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#inicio">Privacy</a> &middot; <a
+        href="#">Terms</a></p>
+  </footer>
+
+
+  <!-- BOOTSTRAP JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!-- My JAVASCRIPT -->
+
+  <script src="js/financiacion.js"></script>
+  <script src="js/stock.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/api.js"></script>
+  <!-- script sweetalert2 ---------------------------------->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/js/sweetAlert.js"></script>
+</body>
+
+</html>

@@ -164,7 +164,7 @@ stockProductos = [
     marca: 'LG',
     nombre: 'Lavarropas LG 9Kg Carga Frontal Motor Inverter Direct Drive',
     precio: 663,
-    img: '/img/productos/lavaropa/lavarropas-inverter-lg-wm9we6-foto1.webp',
+    img: 'img/productos/lavaropa/lavarropas-inverter-lg-wm9we6-foto1.webp',
   },
   {
     id: 22,
@@ -172,6 +172,6 @@ stockProductos = [
     marca: 'Samsung',
     nombre: 'Lavarropas SAMSUNG Carga Superior 8Kg Tecnología Woddle',
     precio: 570,
-    img: '/img/productos/lavaropa/lavarropas-samsung-wa80h4200sw-foto1.webp',
+    img: 'img/productos/lavaropa/lavarropas-samsung-wa80h4200sw-foto1.webp',
   },
 ];

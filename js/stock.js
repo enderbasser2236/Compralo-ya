@@ -5,14 +5,14 @@ stockProductos = [
     marca: 'TEM',
     nombre: 'Cocina TEM Mastercook Super Gas 4 Hornallas - Blanca',
     precio: 97,
-    img: '/img/productos/cocinas/cocina-tem-mastercook.jpg',
+    img: './img/productos/cocinas/cocina-tem-mastercook.jpg',
   },
   {
     tipo: 'cocina',
     marca: 'Enruta',
     nombre: 'Cocina ENXUTA a Gas CENX642S',
     precio: 390,
-    img: '/img/productos/cocinas/cocina-enruta.jpg',
+    img: './img/productos/cocinas/cocina-enruta.jpg',
   },
   {
     id: 3,
@@ -20,7 +20,7 @@ stockProductos = [
     marca: 'Consul',
     nombre: 'Cocina CONSUL a Gas 5 Hornallas',
     precio: 449,
-    img: '/img/productos/cocinas/cocina-consul-a-gas-5-hornallas.jpg',
+    img: './img/productos/cocinas/cocina-consul-a-gas-5-hornallas.jpg',
   },
   {
     id: 4,
@@ -28,7 +28,7 @@ stockProductos = [
     marca: 'consul',
     nombre: 'Cocina CONSUL a Gas 4 Hornallas Horno 58L',
     precio: 369,
-    img: '/img/productos/cocinas/cocinaconsulagas4hornallas.jpg',
+    img: './img/productos/cocinas/cocinaconsulagas4hornallas.jpg',
   },
   {
     id: 5,
@@ -36,7 +36,7 @@ stockProductos = [
     marca: 'XIAOMI',
     nombre: 'XIAOMI Redmi 10 6.5” FHD+ 128GB 4GB RAM',
     precio: 317,
-    img: '/img/productos/celulares/xiaomi-redmi-10-4gb-128gb-foto1.jpg',
+    img: './img/productos/celulares/xiaomi-redmi-10-4gb-128gb-foto1.jpg',
   },
   {
     id: 6,
@@ -44,7 +44,7 @@ stockProductos = [
     marca: 'Samsung',
     nombre: 'SAMSUNG Galaxy A12 2021 6.5” ',
     precio: 257,
-    img: '/img/productos/celulares/samsung-galaxy-a12-128gb-foto-azul1.jpg',
+    img: './img/productos/celulares/samsung-galaxy-a12-128gb-foto-azul1.jpg',
   },
   {
     id: 7,
@@ -52,7 +52,7 @@ stockProductos = [
     marca: 'Huawei',
     nombre: 'HUAWEI Y9A 2021 6.63"',
     precio: 387,
-    img: '/img/productos/celulares/huawei-y9a-128gb-foto1.jpg',
+    img: './img/productos/celulares/huawei-y9a-128gb-foto1.jpg',
   },
   {
     id: 8,
@@ -60,7 +60,7 @@ stockProductos = [
     marca: 'Apple',
     nombre: 'iPhone 11 128GB',
     precio: 1070,
-    img: '/img/productos/celulares/iphone.jpg',
+    img: './img/productos/celulares/iphone.jpg',
   },
   {
     id: 9,
@@ -68,7 +68,7 @@ stockProductos = [
     marca: 'Samsung',
     nombre: 'Refrigerador Heladera SAMSUNG RT29',
     precio: 729,
-    img: '/img/productos/heladeras/refrigerador-samsung-rt29-foto.jpg',
+    img: './img/productos/heladeras/refrigerador-samsung-rt29-foto.jpg',
   },
   {
     id: 10,
@@ -76,7 +76,7 @@ stockProductos = [
     marca: 'James',
     nombre: 'Heladera James frío seco 272Lts acero inoxidable',
     precio: 660,
-    img: '/img/productos/heladeras/heladera-james-frio-seco-272lts-acero-inoxidable-garantia-oficial-heladera-james-frio-seco-272lts-acero-inoxidable-garantia-oficial.webp',
+    img: './img/productos/heladeras/heladera-james-frio-seco-272lts-acero-inoxidable-garantia-oficial-heladera-james-frio-seco-272lts-acero-inoxidable-garantia-oficial.webp',
   },
   {
     id: 11,
@@ -84,7 +84,7 @@ stockProductos = [
     marca: 'Samsung',
     nombre: 'Heladera Samsung 766 L Side By Side RF27T5201B1',
     precio: 2599,
-    img: '/img/productos/heladeras/heladera-samsung-766-l-side-by-side-rf27t5201b1-heladera-samsung-766-l-side-by-side-rf27t5201b1.jpg',
+    img: './img/productos/heladeras/heladera-samsung-766-l-side-by-side-rf27t5201b1-heladera-samsung-766-l-side-by-side-rf27t5201b1.jpg',
   },
   {
     id: 12,
@@ -92,7 +92,7 @@ stockProductos = [
     marca: 'Consul',
     nombre: 'Heladera Cervecera CONSUL 120L',
     precio: 639,
-    img: '/img/productos/heladeras/cervezera-consul-czd12btdwk-48-zillertal-foto1.jpg',
+    img: './img/productos/heladeras/cervezera-consul-czd12btdwk-48-zillertal-foto1.jpg',
   },
   {
     id: 13,
@@ -100,7 +100,7 @@ stockProductos = [
     marca: 'JVC',
     nombre: 'Smart TV JVC 65" 4K UltraHD Android 9',
     precio: 957,
-    img: '/img/productos/tvs/smart-tv-jvc-65-65n885u-foto11-1629124971.jpg',
+    img: './img/productos/tvs/smart-tv-jvc-65-65n885u-foto11-1629124971.jpg',
   },
   {
     id: 14,
@@ -108,7 +108,7 @@ stockProductos = [
     marca: 'Punktal',
     nombre: 'Smart TV PUNKTAL 32" LED HD WIFI',
     precio: 250,
-    img: '/img/productos/tvs/smart-tv-punktal-32-pk-32dl-foto1-1594150272.jpg',
+    img: './img/productos/tvs/smart-tv-punktal-32-pk-32dl-foto1-1594150272.jpg',
   },
   {
     id: 15,
@@ -116,7 +116,7 @@ stockProductos = [
     marca: 'Samsung',
     nombre: 'Samsung Smart Tv 50" Crystal UHD 4K',
     precio: 839,
-    img: '/img/productos/tvs/samsung-smart-tv-50-crystal-uhd-4k-2021-un50au7000.jpg',
+    img: './img/productos/tvs/samsung-smart-tv-50-crystal-uhd-4k-2021-un50au7000.jpg',
   },
   {
     id: 16,
@@ -124,7 +124,7 @@ stockProductos = [
     marca: 'LG',
     nombre: 'Smart TV LG 65 4K UHD UP7750 AI ThinQ',
     precio: 1490,
-    img: '/img/productos/tvs/smart-tv-lg-65-65up7750psb-foto1.jpg',
+    img: './img/productos/tvs/smart-tv-lg-65-65up7750psb-foto1.jpg',
   },
   {
     id: 17,
@@ -132,7 +132,7 @@ stockProductos = [
     marca: 'LG',
     nombre: '2Microondas LG Smart Inverter 25L EasyClean Panel Táctil',
     precio: 297,
-    img: '/img/productos/microondas/microondas-lg-25l-ms2536gis-foto.webp',
+    img: './img/productos/microondas/microondas-lg-25l-ms2536gis-foto.webp',
   },
   {
     id: 18,
@@ -140,7 +140,7 @@ stockProductos = [
     marca: 'SmartLife',
     nombre: 'Microondas SMARTLIFE 20L 700W Digital SL-MWO20DB',
     precio: 109,
-    img: '/img/productos/microondas/microondas-smartlife-sl-mwo20db-foto.webp',
+    img: './img/productos/microondas/microondas-smartlife-sl-mwo20db-foto.webp',
   },
   {
     id: 19,
@@ -148,7 +148,7 @@ stockProductos = [
     marca: 'Punktal',
     nombre: 'Lavarropas PUNKTAL Eco-Logic Carga Frontal Capacidad 6kg',
     precio: 364,
-    img: '/img/productos/lavaropa/lavarropas-punktal-pk-08-lav-foto.webp',
+    img: './img/productos/lavaropa/lavarropas-punktal-pk-08-lav-foto.webp',
   },
   {
     id: 20,
@@ -156,7 +156,7 @@ stockProductos = [
     marca: 'Enruta',
     nombre: 'Lavarropas ENXUTA Semiautomático Carga Superior Capacidad 5.5kg',
     precio: 150,
-    img: '/img/productos/lavaropa/lavarropas-enxuta-lenx25550-foto1.webp',
+    img: './img/productos/lavaropa/lavarropas-enxuta-lenx25550-foto1.webp',
   },
   {
     id: 21,
@@ -172,6 +172,6 @@ stockProductos = [
     marca: 'Samsung',
     nombre: 'Lavarropas SAMSUNG Carga Superior 8Kg Tecnología Woddle',
     precio: 570,
-    img: '../img/productos/lavaropa/lavarropas-samsung-wa80h4200sw-foto1.webp',
+    img: './img/productos/lavaropa/lavarropas-samsung-wa80h4200sw-foto1.webp',
   },
 ];

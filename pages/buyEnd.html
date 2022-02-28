@@ -42,13 +42,13 @@
                                 href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#formulario">Financiacion</a>
+                            <a class="nav-link" href="../index.html#formulario">Financiacion</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#cards">Productos</a>
+                            <a class="nav-link" href="../index.html#cards">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#carrito" tabindex="-1"
+                            <a class="nav-link" href="../pages/buyEnd.html" tabindex="-1"
                                 aria-disabled="true">Carrito</a>
                         </li>
                     </ul>
@@ -60,7 +60,7 @@
                     </div>
                     <div>
                         <a href="../index.html"><button
-                                class="btn btn-warning finalizar_btn">Volver</button></a>
+                                class="btn btn-success finalizar_btn">Volver</button></a>
                     </div>
                 </div>
             </div>
@@ -92,12 +92,30 @@
                                 <strong id="montoTotal"></strong>
                             </li>
                         </ul>
-                        <button class="btn btn-danger" onclick="vaciarCarrito()">Vaciar
-                            Carrito</button>
+                        <div class="btnContainer">
+                            <div class="emptyBtn">
+                                <button class="btn btn-danger" onclick="vaciarCarrito()">Vaciar
+                                    Carrito</button>
+                            </div>
+                            <div class="endBtn">
+                                <button class="btn btn-warning" onclick="endBuy();">Finalizar
+                                    Compra</button>
+                            </div>
+
+                        </div>
+
+
+
             </section>
 
 
         </main>
+
+        <footer class="container footerEnd">
+            <p class="float-end"><a href="#">Al Inicio</a></p>
+            <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#inicio">Privacy</a> &middot; <a
+                    href="#">Terms</a></p>
+        </footer>
 
         <script src="../js/endBuyCart.js"></script>
         <script src="../js/stock.js"></script>

@@ -4,6 +4,11 @@
     border: 0;
 }
 
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
 /* header section****************************************************************************** */
 
 main {
@@ -173,6 +178,20 @@ form {
     bottom: 5px;
 }
 
+.btnContainer {
+    position: relative;
+}
+
+.emptyBtn {
+    display: inline-block;
+}
+
+.endBtn {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+}
+
 
 
 /* footer ************************************************************/
@@ -181,8 +200,10 @@ form {
     position: absolute;
     left: 8%;
     bottom: 0;
-
     /* Height of the footer*/
+}
 
-
+.footerEnd {
+    position: absolute;
+    bottom: 0px;
 }

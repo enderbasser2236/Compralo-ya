@@ -3,10 +3,10 @@ const addedToCart = () => {
     text: 'Agregado al carrito',
     icon: 'success',
     width: '20%',
-    background: '#e0e0e',
+    background: 'ligthgray',
     timer: 1500,
     toast: true,
-    position: 'top-end',
+    position: 'bottom-end',
     showConfirmButton: false,
   });
 };
@@ -16,10 +16,10 @@ const deleteFromCart = () => {
     text: 'Eliminado',
     icon: 'error',
     width: '20%',
-    background: '#e0e0e',
+    background: 'ligthgray',
     timer: 1500,
     toast: true,
-    position: 'top-end',
+    position: 'bottom-end',
     showConfirmButton: false,
   });
 };
@@ -29,7 +29,7 @@ const emptyCart = () => {
     text: 'Vaciaste el Carrito',
     icon: 'error',
     width: '20%',
-    background: '#e0e0e',
+    background: 'ligthgray',
     backdrop: true,
     timer: 2000,
     showConfirmButton: false,
@@ -41,10 +41,10 @@ const endBuy = () => {
     html: 'Gracias por su compra, <br/> Siga comprando con nosotros, <br/> su pedido se a realizado con exito',
     icon: 'success',
     width: '50%',
-    background: '#e0e0e',
+    background: 'ligthgray',
     backdrop: true,
     timer: 3000,
     showConfirmButton: false,
   });
-  vaciarCarrito();
+  endBuyEmptyCart();
 };

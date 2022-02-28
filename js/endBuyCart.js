@@ -52,6 +52,13 @@ function vaciarCarrito() {
   emptyCart();
 }
 
+function endBuyEmptyCart() {
+  cart.length = 0;
+  mostrarCompra();
+  let items1 = document.getElementById('totalItemsCarrito');
+  items1.innerHTML = cart.length;
+}
+
 /* funcion que elimina los items del cart 1 por 1 **************************************************************/
 
 function deleteItem(stockProductos) {

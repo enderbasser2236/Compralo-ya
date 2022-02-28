@@ -8,7 +8,7 @@ stockProductos.forEach((prod) => {
   div.style = 'width: 18rem';
 
   div.innerHTML = `
-            <img src=${prod.img} class="card-img-top imgStyle" alt="...">
+            <img src=.${prod.img} class="card-img-top imgStyle" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${prod.tipo}</h5>
                 <p class="card-text"><strong>${prod.marca}</strong></p>

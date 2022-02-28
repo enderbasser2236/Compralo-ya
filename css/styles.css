@@ -45,6 +45,16 @@ main {
 
 }
 
+#navbarNav {
+    position: relative;
+}
+
+.finalizar_btn {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
+
 /* Features section ****************************************************************/
 .featuresTop {
     padding-top: 100px;
@@ -143,14 +153,24 @@ form {
     margin-left: auto;
 }
 
-.finalizar_btn {
-    position: absolute;
-    right: 10%;
-}
+
 
 .priceAlignment {
     position: absolute;
     right: 100px;
+}
+
+.cartDiv {
+    position: relative;
+    width: 50%;
+    height: 100px;
+
+}
+
+.cartImg {
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
 }
 
 

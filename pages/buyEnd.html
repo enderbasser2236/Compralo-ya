@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compralo Ya!</title>
+    <!-- ESTILOS ******************************************************************************* -->
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+        crossorigin="anonymous">
+    <!-- MY CSS ******************************************************************************* -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+
+    <header id="inicio">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="/pages/buyEnd.html"><img class="logo"
+                            src="/img/logo.jpg" alt="logo"></a>
+                    <span id="totalItemsCarrito"
+                        class="badge bg-primary rounded-pill cartTotal">0</span>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formulario">Financiacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cards">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carrito" tabindex="-1"
+                                aria-disabled="true">Carrito</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="/index.html" style="text-decoration: none; width: 400px;">
+                            <h3 id="titulo" style="width: max-content;" class="titulo">Compralo Ya!
+                            </h3>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/index.html"><button
+                                class="btn btn-warning finalizar_btn">Volver</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <body>
+
+
+        <main>
+
+
+            <section id="carrito">
+
+                <div class="row g-5 carritoStyle">
+                    <div class="order-md-last">
+                        <h4 class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-primary">Carrito</span>
+                            <!-- <span id="totalItemsCarrito" class="badge bg-primary rounded-pill">0</span> -->
+                        </h4>
+                        <ul class="list-group mb-3" id="selectorCarrito">
+                        </ul>
+                        <ul>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Total (USD)</span>
+                                <strong id="montoTotal"></strong>
+                            </li>
+                        </ul>
+                        <button class="btn btn-danger" onclick="vaciarCarrito()">Vaciar
+                            Carrito</button>
+            </section>
+
+
+        </main>
+
+        <script src="/js/endBuyCart.js"></script>
+        <script src="/js/stock.js"></script>
+        <!-- scripts de sweetAlert ---------------------------------------------- -->
+        <!-- script sweetalert2 ---------------------------------->
+        <script src="/js/sweetAlert.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    </body>

@@ -1,6 +1,5 @@
 /* variables CARRITO y RESTORE DELOCALSTORAGE ********************************************************************* */
 let cart = [];
-console.log(cart);
 
 const itemCarrito = document.getElementById('selectorCarrito');
 

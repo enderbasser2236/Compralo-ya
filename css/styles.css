@@ -180,6 +180,7 @@ form {
 
 .btnContainer {
     position: relative;
+    margin-bottom: 50px;
 }
 
 .emptyBtn {
@@ -198,12 +199,18 @@ form {
 
 .containerFooter {
     position: absolute;
-    left: 8%;
+    left: 50%;
     bottom: 0;
+    width: 100%;
     /* Height of the footer*/
 }
 
 .footerEnd {
     position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     bottom: 0px;
 }

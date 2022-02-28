@@ -26,7 +26,7 @@ function mostrarCompra() {
           <div class="cartDiv">
           <h6 class="my-0">${prod.tipo} ${prod.marca}</h6>
           <small class="text-muted">${prod.nombre}</small>
-          <img class="cartImg" style="width:100px; height:100px;" src=./pages${prod.img}>
+          <img class="cartImg" style="width:100px; height:100px;" src=./${prod.img}>
           </div>
           <div>
           </div>

@@ -16,7 +16,6 @@ itemsRestored.map((item) => {
 function agregarAlCarrito(prodId) {
   let producto = stockProductos.find((el) => el.id === prodId);
   cart.push(producto);
-  console.log(cart);
   respaldarCarrito(cart);
   totalItems();
   addedToCart();
@@ -34,6 +33,7 @@ function totalItems() {
 function respaldarCarrito(cart) {
   let storageCarrito = JSON.stringify(cart);
   localStorage.setItem('itemsCarrito', storageCarrito);
+  console.log(cart);
 }
 
 /* Funcion que recupera los items del cart del LOCALSTORAGE **************************************************** */

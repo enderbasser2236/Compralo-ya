@@ -173,9 +173,19 @@ form {
 }
 
 .cartImg {
-    position: absolute;
-    right: 0px;
+    right: 0%;
     bottom: 5px;
+}
+
+.imgCartDiv {
+    margin-right: 50px;
+}
+
+.imgCart {
+    padding-top: 10px;
+    min-width: 200px;
+    height: 90%;
+
 }
 
 .btnContainer {
@@ -214,3 +224,8 @@ form {
     width: 100%;
     bottom: 0px;
 }
+
+/* ***************************RESPONSIVE******************************************* */
+
+
+@media (max-width:1080px) {}

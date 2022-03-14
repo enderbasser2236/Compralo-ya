@@ -50,18 +50,6 @@ function mostrarCompra() {
   calcularTotal(cart);
 }
 
-{
-  /* <div class="cartDiv">
-          <h6 class="my-0">${prod.tipo} ${prod.marca}</h6>
-          <small class="text-muted">${prod.nombre}</small>
-          <img class="cartImg" style="width:100px; height:100px;" src=..${prod.img}>
-          </div>
-          <div>
-          </div>
-          <span class="priceAlignment text-muted"><strong>Precio: U$S ${prod.precio}</span>
-          <button id="deleteButton" class="btn btn-danger" onclick="deleteItem(${prod.id})">Borrar</button> */
-}
-
 /* FUNCION DE VACIAR EL CARRITO********************************************************* */
 
 function vaciarCarrito() {

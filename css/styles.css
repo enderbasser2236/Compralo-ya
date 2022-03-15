@@ -179,6 +179,7 @@ form {
 
 .imgCartDiv {
     margin-right: 50px;
+    text-align: center;
 }
 
 .imgCart {
@@ -186,6 +187,10 @@ form {
     min-width: 200px;
     height: 90%;
 
+}
+
+.card-body {
+    text-align: center;
 }
 
 .btnContainer {
@@ -228,4 +233,18 @@ form {
 /* ***************************RESPONSIVE******************************************* */
 
 
-@media (max-width:1080px) {}
+@media (max-width:650px) {
+
+    .emptyBtn {
+        text-align: center;
+        display: block;
+        padding: 30px;
+    }
+
+    .endBtn {
+        text-align: center;
+        display: block;
+        position: static;
+    }
+
+}

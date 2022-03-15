@@ -33,8 +33,8 @@ function mostrarCompra() {
         <h5 class="card-title">${prod.tipo} ${prod.marca}</h5>
         <p class="card-text">${prod.nombre}</p>
         <p class="card-text"><strong>Precio: U$S ${prod.precio}</strong></p>
-        <button id="deleteButton" class="btn btn-danger" onclick="deleteItem(${prod.id})">Borrar</button>
-      </div>
+        <button id="deleteButton" class="btn btn-danger" onclick="deleteItem(${prod.id})">Borrar</button></div>
+      
       
     </div>
   </div>

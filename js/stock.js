@@ -175,3 +175,8 @@ stockProductos = [
     img: '/img/productos/lavaropa/lavarropas-samsung-wa80h4200sw-foto1.webp',
   },
 ];
+
+/* stockProductos.map((item) => {
+  console.log(item.nombre);
+});
+ */

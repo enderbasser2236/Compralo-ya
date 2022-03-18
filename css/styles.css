@@ -124,6 +124,20 @@ form {
     height: 200px;
 }
 
+#searchBar {
+    background-image: url('/img/icons/searchIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 60px;
+    border: 2px solid rgb(158, 157, 157);
+    border-radius: 20px;
+    margin-bottom: 12px;
+
+}
+
+
 /* Usuarios API CALL!! ------------------------------------------------------ */
 
 

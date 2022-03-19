@@ -10,7 +10,7 @@ stockProductos = [
   {
     tipo: 'cocina',
     marca: 'Enruta',
-    nombre: 'Cocina ENXUTA a Gas CENX642S',
+    nombre: 'Cocina ENRUTA a Gas CENX642S',
     precio: 390,
     img: '/img/productos/cocinas/cocina-enruta.jpg',
   },
@@ -34,7 +34,7 @@ stockProductos = [
     id: 5,
     tipo: 'celular',
     marca: 'XIAOMI',
-    nombre: 'XIAOMI Redmi 10 6.5” FHD+ 128GB 4GB RAM',
+    nombre: 'celular XIAOMI Redmi 10 6.5” FHD+ 128GB 4GB RAM',
     precio: 317,
     img: '/img/productos/celulares/xiaomi-redmi-10-4gb-128gb-foto1.jpg',
   },
@@ -42,7 +42,7 @@ stockProductos = [
     id: 6,
     tipo: 'celular',
     marca: 'Samsung',
-    nombre: 'SAMSUNG Galaxy A12 2021 6.5” ',
+    nombre: 'celular SAMSUNG Galaxy A12 2021 6.5” ',
     precio: 257,
     img: '/img/productos/celulares/samsung-galaxy-a12-128gb-foto-azul1.jpg',
   },
@@ -50,7 +50,7 @@ stockProductos = [
     id: 7,
     tipo: 'celular',
     marca: 'Huawei',
-    nombre: 'HUAWEI Y9A 2021 6.63"',
+    nombre: 'celular HUAWEI Y9A 2021 6.63"',
     precio: 387,
     img: '/img/productos/celulares/huawei-y9a-128gb-foto1.jpg',
   },
@@ -58,7 +58,7 @@ stockProductos = [
     id: 8,
     tipo: 'celular',
     marca: 'Apple',
-    nombre: 'iPhone 11 128GB',
+    nombre: 'celular iPhone 11 128GB',
     precio: 1070,
     img: '/img/productos/celulares/iphone.jpg',
   },
@@ -130,7 +130,7 @@ stockProductos = [
     id: 17,
     tipo: 'Microondas',
     marca: 'LG',
-    nombre: '2Microondas LG Smart Inverter 25L EasyClean Panel Táctil',
+    nombre: 'Microondas LG Smart Inverter 25L EasyClean Panel Táctil',
     precio: 297,
     img: '/img/productos/microondas/microondas-lg-25l-ms2536gis-foto.webp',
   },
@@ -154,7 +154,7 @@ stockProductos = [
     id: 20,
     tipo: 'Lavaropa',
     marca: 'Enruta',
-    nombre: 'Lavarropas ENXUTA Semiautomático Carga Superior Capacidad 5.5kg',
+    nombre: 'Lavarropas ENRUTA Semiautomático Carga Superior Capacidad 5.5kg',
     precio: 150,
     img: '/img/productos/lavaropa/lavarropas-enxuta-lenx25550-foto1.webp',
   },
@@ -175,8 +175,3 @@ stockProductos = [
     img: '/img/productos/lavaropa/lavarropas-samsung-wa80h4200sw-foto1.webp',
   },
 ];
-
-/* stockProductos.map((item) => {
-  console.log(item.nombre);
-});
- */

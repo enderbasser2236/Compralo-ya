@@ -1,4 +1,4 @@
-/* mostrar el STOCK de  productos disponibles ************************************************************************* */
+/* searchBar********************************************************************* */
 
 let stock = stockProductos;
 let contenedor = document.getElementById('contenedor');
@@ -6,15 +6,13 @@ const searchBar = document.getElementById('searchBar');
 searchBar.addEventListener('keyup', (e) => {
   const inputValue = e.target.value.toLowerCase();
   filteredItems = stock.filter((item) => {
-    return (
-      item.nombre.toLowerCase().includes(inputValue) ||
-      item.marca.toLowerCase().includes(inputValue) ||
-      item.tipo.toLowerCase().includes(inputValue)
-    );
+    return item.nombre.toLowerCase().includes(inputValue);
   });
 
   showItems(filteredItems);
 });
+
+/* mostrar el STOCK de  productos disponibles ********************************************************** */
 
 const showItems = (items) => {
   console.log(items);

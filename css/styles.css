@@ -1,264 +1,278 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+ }
 
-body {
-    min-height: 100vh;
-    position: relative;
-}
 
-/* header section****************************************************************************** */
 
-main {
-    padding-top: 55px;
-}
+ /* header section****************************************************************************** */
 
+ main {
+     padding-top: 55px;
+ }
 
-.logo {
-    width: 70px;
-    height: 50px;
-}
 
-.cartTotal {
-    position: relative;
-    right: 50px;
-    bottom: 15px;
-}
+ .logo {
+     width: 70px;
+     height: 50px;
+ }
 
-.navbar {
+ .cartTotal {
+     position: relative;
+     right: 50px;
+     bottom: 15px;
+ }
 
-    position: fixed;
-    z-index: 5;
-    width: 100%;
-    margin-bottom: 100px;
-}
+ .navbar {
 
-.titulo {
-    color: rgb(0, 126, 48);
-    margin-left: 25%;
-    font-weight: bolder;
-}
+     position: fixed;
+     z-index: 5;
+     width: 100%;
+     margin-bottom: 100px;
+ }
 
+ .titulo {
+     color: rgb(0, 126, 48);
+     margin-left: 25%;
+     font-weight: bolder;
+ }
 
-.carousselImgSize {
 
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+ .carousselImgSize {
 
-}
+     width: 100%;
+     height: 400px;
+     object-fit: cover;
 
-#navbarNav {
-    position: relative;
-}
+ }
 
-.finalizar_btn {
-    position: absolute;
-    right: 5%;
-    bottom: 10%;
-}
+ #navbarNav {
+     position: relative;
+ }
 
-/* Features section ****************************************************************/
-.featuresTop {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
+ .finalizar_btn {
+     position: absolute;
+     right: 5%;
+     bottom: 10%;
+ }
 
-}
+ /* Features section ****************************************************************/
+ .featuresTop {
+     padding-top: 100px;
+     padding-bottom: 100px;
+     text-align: center;
 
-#features {
-    background-color: #6effab;
-}
+ }
 
-/* formlario seection******************************************************** */
+ #features {
+     background-color: #6effab;
+ }
 
-.formulario {
-    background-color: rgb(0, 126, 48);
-    color: #fff;
-    text-align: left;
-    padding: 35px 100px;
-    line-height: 35px;
-}
+ /* Usuarios API CALL!! ------------------------------------------------------ */
 
 
-form {
-    color: #fff;
-    padding-right: 100px;
-}
+ #usuarios {
+     padding: 50px;
+ }
 
 
-/* cards section******************************************************************* */
+ .userHeader {
+     font-size: 2rem;
+     padding-bottom: 30px;
+ }
 
-.stockHeader {
-    text-align: center;
-    font-size: 2.5rem;
-}
+ .usersHeaderEnd {
+     padding: 50px;
+     text-align: center;
+     font-size: 2rem;
+ }
 
-#cards {
-    padding: 20px;
-    padding-top: 40px;
-    background-color: rgb(110, 255, 171);
+ .users {
+     margin: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: smaller;
+     color: #fff;
+     border: solid 3px lightgray;
+     border-radius: 5%;
+ }
 
+ /* formulario seection******************************************************** */
 
-}
+ .formulario {
+     background-color: rgb(0, 126, 48);
+     color: #fff;
+     text-align: left;
+     padding: 30px 30px;
+     line-height: 35px;
+ }
 
-.contenedor-style {
-    max-width: 100%;
-    color: black;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 0;
 
-}
+ form {
+     color: #fff;
+ }
 
-.cardStyle {
-    margin: 15px;
+ /* **RESPONSIVE - form*******/
 
-}
 
-.imgStyle {
-    padding-top: 10px;
-    width: auto;
-    height: 200px;
-}
+ @media (max-width:766px) {
 
-#searchBar {
-    background-image: url('/img/icons/searchIcon.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50%;
-    font-size: 16px;
-    padding: 12px 20px 12px 60px;
-    border: 2px solid rgb(158, 157, 157);
-    border-radius: 20px;
-    margin-bottom: 12px;
+     .formulario {
+         text-align: center;
+     }
 
-}
+ }
 
 
-/* Usuarios API CALL!! ------------------------------------------------------ */
 
+ /* cards section******************************************************************* */
 
-#usuarios {
-    padding: 50px;
-}
+ .stockHeader {
+     text-align: center;
+     font-size: 2rem;
+ }
 
+ #cards {
+     padding: 20px;
+     padding-top: 40px;
+     background-color: rgb(110, 255, 171);
 
-.userHeader {
-    font-size: 4rem;
-    padding-bottom: 30px;
-}
 
-.usersHeaderEnd {
-    padding: 50px;
-    margin-left: 20%;
-    font-size: 3rem;
-}
+ }
 
-.users {
-    margin: 10px;
-}
+ .contenedor-style {
+     color: black;
+     justify-content: center;
+     align-items: center;
+     padding: 25px 0;
 
-/* cart section *************************************************************/
+ }
 
+ .cardStyle {
+     margin: 15px;
 
-#carrito {
-    padding: 50px;
-}
+ }
 
-.carritoStyle {
-    margin-left: auto;
-}
+ .imgStyle {
+     padding-top: 10px;
+     width: auto;
+     height: 200px;
+ }
 
+ #searchBar {
+     background-image: url('/img/icons/searchIcon.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 50%;
+     font-size: 16px;
+     padding: 12px 20px 12px 60px;
+     border: 2px solid rgb(158, 157, 157);
+     border-radius: 20px;
+     margin-bottom: 12px;
 
+ }
 
-.priceAlignment {
-    position: absolute;
-    right: 100px;
-}
 
-.cartDiv {
-    position: relative;
-    width: 50%;
-    height: 100px;
 
-}
 
-.cartImg {
-    right: 0%;
-    bottom: 5px;
-}
+ /* cart section *************************************************************/
 
-.imgCartDiv {
-    margin-right: 50px;
-    text-align: center;
-}
 
-.imgCart {
-    padding-top: 10px;
-    min-width: 200px;
-    height: 90%;
+ #carrito {
+     padding: 50px;
+ }
 
-}
+ .carritoStyle {
+     margin-left: auto;
+ }
 
-.card-body {
-    text-align: center;
-}
 
-.btnContainer {
-    position: relative;
-    margin-bottom: 50px;
-}
 
-.emptyBtn {
-    display: inline-block;
-}
+ .priceAlignment {
+     position: absolute;
+     right: 100px;
+ }
 
-.endBtn {
-    display: inline-block;
-    position: absolute;
-    right: 50px;
-}
+ .cartDiv {
+     position: relative;
+     width: 50%;
+     height: 100px;
 
+ }
 
+ .cartImg {
+     right: 0%;
+     bottom: 5px;
+ }
 
-/* footer ************************************************************/
+ .imgCartDiv {
+     margin-right: 50px;
+     text-align: center;
+ }
 
-.containerFooter {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 100%;
-    /* Height of the footer*/
-}
+ .imgCart {
+     padding-top: 10px;
+     min-width: 200px;
+     height: 90%;
 
-.footerEnd {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    bottom: 0px;
-}
+ }
 
-/* ***************************RESPONSIVE******************************************* */
+ .card-body {
+     text-align: center;
+ }
 
+ .btnContainer {
+     position: relative;
+     margin-bottom: 50px;
+ }
 
-@media (max-width:650px) {
+ .emptyBtn {
+     display: inline-block;
+ }
 
-    .emptyBtn {
-        text-align: center;
-        display: block;
-        padding: 30px;
-    }
+ .endBtn {
+     display: inline-block;
+     position: absolute;
+     right: 50px;
+ }
 
-    .endBtn {
-        text-align: center;
-        display: block;
-        position: static;
-    }
+ /****RESPONSIVE-cart************/
 
-}
+
+ @media (max-width:650px) {
+
+     .emptyBtn {
+         text-align: center;
+         display: block;
+         padding: 30px;
+     }
+
+     .endBtn {
+         text-align: center;
+         display: block;
+         position: static;
+     }
+
+ }
+
+
+
+ /* footer ************************************************************/
+
+ .containerFooter {
+     position: absolute;
+     left: 50%;
+     bottom: 0;
+     width: 100%;
+ }
+
+ .footerEnd {
+     position: absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     bottom: 0px;
+ }

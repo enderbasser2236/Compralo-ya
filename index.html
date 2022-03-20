@@ -133,7 +133,7 @@
 
           <!-- Three columns of text below the carousel -->
           <div class="row featuresBottom">
-            <div class="col-lg-4">
+            <div class="col-md-4">
               <img class="rounded-circle" src="./img/serviciotecnico.jpg" alt="servicio tecnico"
                 width="140" height="140">
 
@@ -142,7 +142,7 @@
                 servicio tecnico
                 del pais, en los cuales recibira descuentos exclusivos.</p>
             </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
+            <div class="col-md-4">
               <img class="rounded-circle" src="./img/garantia.jpg" alt="Garantia" width="140"
                 height="140">
 
@@ -150,7 +150,7 @@
               <p>Todos nuestros productos cuentan con <br> garantia de 12 meses.<br> Ciertas
                 Condiciones aplican.</p>
             </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
+            <div class="col-md-4">
               <img class="rounded-circle" src="./img/financiacion.jpg" alt="financiacion"
                 width="140" height="140">
 
@@ -184,47 +184,52 @@
 
     <section id="formulario">
 
-      <div class="row">
+      <div class="container-fluid">
 
-        <div class="formulario col-lg-6">
-          <h2>Simula tu Credito</h2>
+        <div class="row">
 
-          <form id="formulario" class="" action="#" method="post">
-            <label for="Banco">selccione su Banco:</label>
-            <div class="contactForm__item">
-              <select class="" name="banco" id="banco">
-                <option value="">ninguno</option>
-                <option value="santander">santander</option>
-                <option value="scotiabank">scotiabank</option>
-                <option value="itau">itau</option>
-              </select>
-            </div>
-            <label for="cuotas">Seleccione la cantidad de cuotas:</label>
-            <div class="contactForm__item">
-              <select class="" name="cuotas" id="cuotas">
-                <option value="">ninguno</option>
-                <option value=6>6 Cuotas</option>
-                <option value=9>9 Cuotas</option>
-                <option value=12>12 Cuotas</option>
-              </select>
-            </div>
-            <label for="monto">por favor ingrese el monto a solicitar </label><br>
-            <div class="contactForm__item"><input type="number" name="monto" id="monto" /></div><br>
-            <div class="contactForm__item"><input class="btn btn-outline-light" type="submit"
-                name="enviar" placeholder="Enviar" /></div><br>
-            <div class="contactForm__item"><input class="btn btn-outline-light" type="reset"
-                name="reset" placeholder="reset" onclick="erase()" />
-            </div>
-          </form>
+          <div class="formulario col-md-6">
+            <h2>Simula tu Credito</h2>
 
+            <form id="formulario" class="" action="#" method="post">
+              <label for="Banco">selccione su Banco:</label>
+              <div class="contactForm__item">
+                <select class="" name="banco" id="banco">
+                  <option value="">ninguno</option>
+                  <option value="santander">santander</option>
+                  <option value="scotiabank">scotiabank</option>
+                  <option value="itau">itau</option>
+                </select>
+              </div>
+              <label for="cuotas">Seleccione la cantidad de cuotas:</label>
+              <div class="contactForm__item">
+                <select class="" name="cuotas" id="cuotas">
+                  <option value="">ninguno</option>
+                  <option value=6>6 Cuotas</option>
+                  <option value=9>9 Cuotas</option>
+                  <option value=12>12 Cuotas</option>
+                </select>
+              </div>
+              <label for="monto">por favor ingrese el monto a solicitar </label><br>
+              <div class="contactForm__item"><input type="number" name="monto" id="monto" /></div>
+              <br>
+              <div class="contactForm__item"><input class="btn btn-outline-light" type="submit"
+                  name="enviar" placeholder="Enviar" /></div><br>
+              <div class="contactForm__item"><input class="btn btn-outline-light" type="reset"
+                  name="reset" placeholder="reset" onclick="erase()" />
+              </div>
+            </form>
 
-        </div>
-        <div class="formulario col-lg-6">
-          <div id="simuladorOutput">
 
           </div>
+          <div class="formulario col-md-6">
+            <div id="simuladorOutput">
 
+            </div>
+
+          </div>
         </div>
+
       </div>
 
     </section>

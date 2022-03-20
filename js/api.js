@@ -5,6 +5,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
   .then((users) => {
     for (user of users) {
       /* console.log(user) */
-      HTMLresponse.innerHTML += `<div class="badge bg-success text-wrap text-center users" style="width: 20rem;">Sr.(a)  ${user.name},  Email:  ${user.email} Website: ${user.website}</div></br>`;
+      HTMLresponse.innerHTML += `<div class="bg-success text-wrap text-center users"><strong>Sr.(a)  ${user.name},  Email:  ${user.email} Website: ${user.website}</strong></div>`;
     }
   });

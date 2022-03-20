@@ -4,6 +4,12 @@
      border: 0;
  }
 
+ body {
+     position: relative;
+     min-height: 100vh;
+ }
+
+
 
 
  /* header section****************************************************************************** */
